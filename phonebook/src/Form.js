@@ -19,6 +19,8 @@ class Form extends Component {
         console.log(this.state);
         this.props.onCreate(this.state)
         this.setState({
+            name: '',
+            number: ''
 
         })
     }
